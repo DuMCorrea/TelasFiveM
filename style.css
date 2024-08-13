@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f0f0f0; /* Exemplo de cor de fundo */
+}
+
+.div-principal {
+    width: 1167px;
+    height: 829px;
+    border-radius: 20px;
+    opacity: 1; /* Visibilidade ativada */
+    background: rgba(0, 0, 0, 0.68); /* Ajuste da opacidade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    position: absolute;
+    top: 73px;
+    left: 121px;
+    overflow: hidden; /* Garante que a imagem não ultrapasse a div */
+}
+
+.div-menor {
+    width: 424px;
+    height: 829px;
+    border-radius: 20px;
+    border: 1px solid transparent; /* Apenas uma borda superior */
+    opacity: 1; /* Visibilidade ativada */
+    background: rgba(0, 0, 0, 0.68); /* Ajuste da opacidade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    position: absolute;
+    top: 73px;
+    left: 1306px;
+}
+
+.imagem-grande {
+    position: absolute;
+    top: 110px; /* Ajuste conforme necessário */
+    right: 600px; /* Ajuste conforme necessário */
+    width: 58%; /* Mantém a proporção da imagem */
+    height: 95%; /* Ajusta a altura da imagem, ajuste conforme necessário */
+    object-fit: contain; /* Ajusta a imagem para caber dentro da div mantendo a proporção */
+}
+
+.menu {
+    position: absolute;
+    top: 0; /* Fica na parte superior da div */
+    left: 0; /* Alinha à esquerda da div */
+    width: 100%; /* Ocupa a largura total da div */
+    background: rgba(0, 0, 0, 0.8); /* Fundo do menu */
+    border-radius: 20px 20px 0 0; /* Borda arredondada superior */
+    padding: 10px 0; /* Espaçamento interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center; /* Alinha os itens ao centro horizontalmente */
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+}
+
+.retangulo-informacoes {
+    width: 770px;
+    height: 232px;
+    position: absolute;
+    top: 80px;
+    left: 362px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+
+.titulo-retangulo {
+    width: 100%; /* Ajusta a largura ao do retângulo */
+    height: 36px;
+    background: #3CB3D6; /* Cor de fundo */
+    border-radius: 20px 20px 0 0; /* Arredonda apenas os cantos superiores */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho do texto */
+    line-height: 36px; /* Centraliza verticalmente o texto */
+    text-align: center; /* Centraliza horizontalmente o texto */
+    position: absolute;
+    top: 0; /* Alinha o título ao topo do retângulo */
+    left: 0; /* Alinha o título à esquerda do retângulo */
+}
+
+.retangulo-informacoes-2 {
+    width: 670px;
+    height: 232px;
+    position: absolute;
+    top: 330px;
+    left: 462px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+
+.retangulo-informacoes-3 {
+    width: 320px;
+    height: 232px;
+    position: absolute;
+    top: 580px;
+    left: 462px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+
+.retangulo-informacoes-4 {
+    width: 320px;
+    height: 232px;
+    position: absolute;
+    top: 580px;
+    left: 814px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+
+.info-usuario {
+    text-align: left; /* Alinha o conteúdo à esquerda */
+    margin-top: 60px; /* Ajusta a posição do conteúdo para baixo */
+    margin-left: 40px;
+}
+
+.imagem-usuario-texto {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 48px;
+    line-height: 50px; /* Centraliza verticalmente o texto */
+    color: white; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento entre "imagem" e texto de sexo */
+}
+
+.sexo-texto {
+    font-size: 15px;
+    color: white; /* Cor do texto para o sexo */
+    font-family: 'Baloo Bhai', sans-serif;
+    margin-top: 0; /* Remove o espaçamento superior */
+}
+.imagem-central {
+    display: block; /* Garante que a imagem seja um elemento de bloco */
+    margin: -93px auto; /* Centraliza a imagem horizontalmente */
+    height: 170px; /* Mantém a proporção da imagem */
+}
+
+.info-direita {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    gap: 20px; /* Espaço entre as colunas e linhas */
+    margin-left: 400px; /* Ajuste conforme necessário */
+    margin-top: -150px; /* Ajuste conforme necessário */
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px); /* Cada item ocupa metade da largura menos o espaçamento */
+}
+
+.titulo-info {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.88px;
+    text-align: left;
+    color: #C9C9C9;
+    margin-bottom: 5px;
+}
+
+.resposta-info {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+    color: #3CB3D6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.promocao-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.promocao-item {
+    text-align: center;
+}
+
+.promocao-texto {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px; /* Espaçamento entre o texto e a imagem */
+    margin-left: 70px;
+}
+
+.promocao-item img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-bottom: 5px; /* Espaçamento entre a imagem e o valor */
+}
+
+.promocao-valor {
+    width: 97px;
+    height: 20px;
+    background: #373737;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.13px;
+    text-align: left;
+    color: white;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cupom-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.cupom-texto-topo, .cupom-texto-baixo {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 5px; /* Reduz o espaçamento abaixo do texto superior */
+}
+
+.cupom-codigo {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 117.96px;
+    text-align: center;
+    color: white;
+    margin: -25px 0; /* Reduz o espaçamento entre o código e os textos */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saldo-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+    gap: 8px; /* Espaçamento entre os retângulos */
+    margin-top: 9px;
+}
+
+.saldo-item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #37373796;
+    padding: 10px;
+}
+
+.saldo-imagem {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.saldo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* Espaçamento reduzido entre o título e o valor */
+   
+}
+
+.saldo-titulo {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px; /* Ajuste na altura da linha para deixar os textos mais próximos */
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+.saldo-valor {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px; /* Ajuste na altura da linha para deixar os textos mais próximos */
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.saldo-valor {
+    font-size: 16px; /* Tamanho menor para o valor */
+}
+
+
+
+
+/* DIV MENOR*/
+
+
+
+
+
+.div-menor {
+    width: 424px;
+    height: 829px;
+    border-radius: 20px;
+    border: 1px solid transparent; /* Apenas uma borda superior */
+    opacity: 1; /* Visibilidade ativada */
+    background: rgba(0, 0, 0, 0.68); /* Ajuste da opacidade */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    position: absolute;
+    top: 73px;
+    left: 1306px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Garante que a imagem não ultrapasse a div */
+}
+
+.imagem-menor {
+    width: 70%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber na div sem distorcer */
+    margin-bottom: 650px;
+    margin-left: 10px;
+}
+
+.cupom-codigoo {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 117.96px;
+    text-align: center;
+    color: white;
+    margin: -25px 0; /* Reduz o espaçamento entre o código e os textos */
+}
+
+.duplicado {
+    width: 350px;
+    height: 102px;
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+.duplicadoo {
+    width: 350px;
+    height: 132px;
+    position: absolute;
+    top: 320px;
+    left: 35px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+.duplicadooo {
+    width: 350px;
+    height: 132px;
+    position: absolute;
+    top: 490px;
+    left: 35px;
+    border-radius: 20px;
+    border: 1px solid #3CB3D6;
+    background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
+    opacity: 1; /* Visibilidade ativada */
+}
+
+.imagens-div-menor {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    align-items: center;
+    position: absolute;
+    bottom: 20px; /* Ajuste conforme necessário */
+    width: 100%;
+    padding: 5px; /* Mantém o padding reduzido */
+    gap: 20px; /* Adiciona um pequeno espaçamento entre as imagens */
+}
+
+.imagem-menor-item {
+    width: 8%; /* Ajuste o tamanho conforme necessário */
+    height: 8%; /* Mantém a proporção das imagens */
+}
