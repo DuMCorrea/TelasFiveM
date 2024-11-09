@@ -222,7 +222,7 @@ body {
 .promocao-texto {
     font-family: 'Baloo Bhai', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 22.32px;
     text-align: left;
     color: white;
@@ -404,8 +404,39 @@ body {
     line-height: 117.96px;
     text-align: center;
     color: white;
-    margin: -25px 0; /* Reduz o espaçamento entre o código e os textos */
+    margin-top: 35px;
+    margin-right: 10px;
 }
+.cidadãos-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+    height: 100%; /* Ajusta a altura para preencher o retângulo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.numero-cidadãos {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #3CB3D6;
+}
+
+.barra {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.numero-total {
+    font-family: 'Baloo Bhai', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
 
 .duplicado {
     width: 350px;
@@ -418,11 +449,13 @@ body {
     background-color: rgba(0, 0, 0, 0); /* Ajuste da opacidade de fundo */
     opacity: 1; /* Visibilidade ativada */
 }
+
+
 .duplicadoo {
     width: 350px;
-    height: 132px;
+    height: 296px;
     position: absolute;
-    top: 320px;
+    top: 310px;
     left: 35px;
     border-radius: 20px;
     border: 1px solid #3CB3D6;
@@ -431,9 +464,9 @@ body {
 }
 .duplicadooo {
     width: 350px;
-    height: 132px;
+    height: 100px;
     position: absolute;
-    top: 490px;
+    top: 625px;
     left: 35px;
     border-radius: 20px;
     border: 1px solid #3CB3D6;
@@ -456,3 +489,98 @@ body {
     width: 8%; /* Ajuste o tamanho conforme necessário */
     height: 8%; /* Mantém a proporção das imagens */
 }
+
+
+
+
+
+.status-rectangle {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  .status-rectanglee {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  .status-rectangleee {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 130px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  .status-rectangleeee {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 170px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  .status-rectangleeeee {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 210px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  .status-rectangleeeeee {
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 249px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajuste para espaçar os textos */
+    padding: 0 10px; /* Adicione um pequeno padding para afastar o texto das bordas */
+    border-radius: 5px;
+    opacity: 1; /* Tornar o retângulo visível */
+    background: #37373796;
+  }
+  
+  .status-text {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Baloo Bhai', sans-serif;
+  }
